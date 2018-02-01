@@ -1,0 +1,15 @@
+# Custom setup files
+
+.custom.Rprofile
+
+# Packrat ignores
+
+packrat/lib*/
+packrat/snapshot.lock
+
+# Project files for various development environments
+
+*.Rproj
+*.sublime-project
+*.sublime-workspace
+
