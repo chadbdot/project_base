@@ -1,15 +1,14 @@
-# Custom setup files
+## R Console files
+.RData
+.Rhistory
 
-.custom.Rprofile
-
-# Packrat ignores
-
-packrat/lib*/
-packrat/snapshot.lock
-
-# Project files for various development environments
-
+## R Studio files
 *.Rproj
-*.sublime-project
-*.sublime-workspace
+.Rproj.user
 
+## Temp files and folders
+*_cache/
+*_files/
+
+## Packrat
+packrat/lib*/
